@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff is great tool for finding out the differences between files.
+It is a tidious work to find the differences manually.
+By using diff tool we can easily find out the differences without much effort.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+If you want to refer some old code it can be done easily.
+Also if you have any bug we can track all the changes that has made to current version by comparing previous
+versoin of files
+We cab easily revert back to previous code as entire history is saved.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+Manually creating a commit provide porgrammer the choice when to commit as he knows when a logical part is completed rather
+than saving some functionally not logical code or code which cannot be compiled.
+Cons:
+Sometimes we may be forgetful and bulk up the commit size
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is mainly used for code and many files are interrelated so we need to see the changes to all files at once to make sense of 
+the change whereas two google docs are seldom related.
+
+How can you use the commands git log and git diff to view the history of files?
+git log will gives all the commits and we can see use git diff to see all the chanes made in a commit from previous commit
+
+How might using version control make you more confident to make changes that could break something?
+So even if a make a change and introduces bug, I can safely go back to the working code and using git diff I can figure out the bug
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I can use create for all my upcoming projects
