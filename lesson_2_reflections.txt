@@ -4,3 +4,32 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Working directory contains all files present while staging area contains files which are tracked by git for a commit.
 we can commit only what files we want even though other files are changed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We add only files which has one logical block to stagging area and hence one commit has one logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When we are working on some experimental feature we do not want to break the working code. Then create a branch and  code
+the experimental features. It also helps colobiration easy.
+
+How do the diagrams help you visualize the branch structure?
+the diagrams will show the commits and their parent, by this a tree will be visualized and hence branch structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A new commit which has changing made in two branches. It conveys that two branches has merged and new commit is formed.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros:
+less load for developer
+cons:
+developer does not have an option to check and resolve conflict
+
+Repository on server is called remote
+
+If I were making a repository on git-hub before I have created repo locally, then I will create README otherwise I will create README because we cannot clone an empty project
+
+We can push changes to remote by adding remote
+git remote - checks all remotes
+git remote add origin url - here just like branch name origin is name of remote
+
+
