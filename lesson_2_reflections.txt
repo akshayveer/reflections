@@ -24,12 +24,4 @@ less load for developer
 cons:
 developer does not have an option to check and resolve conflict
 
-Repository on server is called remote
-
-If I were making a repository on git-hub before I have created repo locally, then I will create README otherwise I will create README because we cannot clone an empty project
-
-We can push changes to remote by adding remote
-git remote - checks all remotes
-git remote add origin url - here just like branch name origin is name of remote
-
 
